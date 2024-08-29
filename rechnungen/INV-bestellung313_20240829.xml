@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Invoice>
+    <InvoiceInformation>
+        <InvoiceNumber>INV-bestellung313_20240829</InvoiceNumber>
+        <InvoiceDate>2024-08-29</InvoiceDate>
+        <DueDate>2024-09-28</DueDate>
+        <CurrencyCode>CHF</CurrencyCode>
+    </InvoiceInformation>
+    <SupplierInformation>
+        <SupplierName>Ozdag GmBh</SupplierName>
+        <SupplierAddress>Muster1str 22 9999 Muster</SupplierAddress>
+        <SupplierTaxID>1234567890</SupplierTaxID>
+        <SupplierContact>info@info.com</SupplierContact>
+    </SupplierInformation>
+    <CustomerInformation>
+        <CustomerName>mustername1 musternachname1</CustomerName>
+        <CustomerAddress>musterstr 1</CustomerAddress>
+        <CustomerTaxID>Unbekannt</CustomerTaxID>
+        <CustomerContact>Unbekannt</CustomerContact>
+    </CustomerInformation>
+    <LineItems>
+        <LineItem>
+            <ItemDescription>Computer</ItemDescription>
+            <ItemQuantity>2</ItemQuantity>
+            <ItemUnitPrice>5000,00</ItemUnitPrice>
+            <ItemTotalAmount>10000,00</ItemTotalAmount>
+            <ItemTaxRate>18.0</ItemTaxRate>
+            <ItemTaxAmount>1800,00</ItemTaxAmount>
+        </LineItem>
+        <LineItem>
+            <ItemDescription>Handy</ItemDescription>
+            <ItemQuantity>2</ItemQuantity>
+            <ItemUnitPrice>3000,00</ItemUnitPrice>
+            <ItemTotalAmount>6000,00</ItemTotalAmount>
+            <ItemTaxRate>18.0</ItemTaxRate>
+            <ItemTaxAmount>1080,00</ItemTaxAmount>
+        </LineItem>
+        <LineItem>
+            <ItemDescription>Tablet</ItemDescription>
+            <ItemQuantity>4</ItemQuantity>
+            <ItemUnitPrice>2000,00</ItemUnitPrice>
+            <ItemTotalAmount>8000,00</ItemTotalAmount>
+            <ItemTaxRate>18.0</ItemTaxRate>
+            <ItemTaxAmount>1440,00</ItemTaxAmount>
+        </LineItem>
+    </LineItems>
+    <SummaryInformation>
+        <SubtotalAmount>24000,00</SubtotalAmount>
+        <TaxAmount>4320,00</TaxAmount>
+        <TotalAmount>28320,00</TotalAmount>
+    </SummaryInformation>
+    <PaymentInformation>
+        <PaymentMethod>Banküberweisung</PaymentMethod>
+        <BankAccountDetails>
+            <BankName>MusterBank</BankName>
+            <IBAN>CH123456789012345678901234</IBAN>
+            <SWIFT>BANKTRIS</SWIFT>
+        </BankAccountDetails>
+        <PaymentTerms>30 days from invoice date</PaymentTerms>
+    </PaymentInformation>
+</Invoice>

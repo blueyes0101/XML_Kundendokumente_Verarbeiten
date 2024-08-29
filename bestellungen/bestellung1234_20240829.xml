@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bestellung>
+            
+    
+    <Kunde>
+                        
+        
+        <Vorname>MusterName</Vorname>
+                        
+        
+        <Nachname>MusterNachName</Nachname>
+                        
+        
+        <Adresse>Musterstr 12</Adresse>
+                    
+    
+    </Kunde>
+            
+    
+    <Zeitstempel>20240829</Zeitstempel>
+        
+    
+    <Produkt>Computer</Produkt>
+        
+    <Menge>2</Menge>
+    
+    <Produkt>Tablet</Produkt>
+    <Menge>2</Menge>
+</Bestellung>

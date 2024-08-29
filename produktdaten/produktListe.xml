@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<produkte>
+    <produkt>
+        <name>Computer</name>
+        <preis>5000</preis>
+    </produkt>
+    <produkt>
+        <name>Handy</name>
+        <preis>3000</preis>
+    </produkt>
+    <produkt>
+        <name>Tablet</name>
+        <preis>2000</preis>
+    </produkt>
+    <produkt>
+        <name>Monitor</name>
+        <preis>1500</preis>
+    </produkt>
+</produkte>
